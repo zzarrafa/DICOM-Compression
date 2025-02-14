@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dicom-ima": "file:",
+    "dicom-parser": "^1.8.21",
+    "express": "^4.21.2",
+    "jpeg-js": "^0.4.4",
+    "multer": "^1.4.5-lts.1",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.33.5"
+  },
+  "name": "dicom-ima",
+  "version": "1.0.0",
+  "main": "extra.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
