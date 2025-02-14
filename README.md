@@ -2,7 +2,7 @@
 
 ## 📌 Description
 Ce projet permet d'extraire les données PixelData des fichiers DICOM et de les compresser en formats **JPEG, JPEG 2000 (JP2) et High Throughput JPEG 2000 (JPH)**.  
-Il inclut également une application web pour visualiser les images.
+
 
 ## 📂 Structure du projet
 - `scripts/` : Scripts Node.js pour l'extraction et compression des images DICOM.
