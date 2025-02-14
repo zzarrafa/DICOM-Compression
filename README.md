@@ -19,21 +19,20 @@ Ce projet permet d'extraire les données PixelData des fichiers DICOM et de les 
  *    - Windows : Télécharger OpenJPEG : https://github.com/uclouvain/openjpeg/releases
  
 - **OpenJPH** pour JPH (`ojph_compress`)
-*       Installer OpenJPH pour la conversion en JPH :
-*     Suivre les instructions ici : https://github.com/aous72/OpenJPH
+* -Installer OpenJPH pour la conversion en JPH :
+* -Suivre les instructions ici : https://github.com/aous72/OpenJPH
 
-### 2️⃣ Installation
+### 2️⃣ Installation 
 Cloner le projet et installer les dépendances :
-```sh
+
 git clone https://github.com/ton-utilisateur/DICOM-Compression.git
 cd DICOM-Compression
 npm install
 
+Exécuter le script avec `node script.js` 
 
-Exécuter le script avec `node script.js`
 
-
-### Observations
-- **JPEG** : Rapide mais compression avec perte notable et grande taille.
+# Observations 
+- **JPEG** : Rapide mais compression avec perte notable et grande taille de fichier.
 - **JP2** : rapide avec qualité correcte mais toujours une perte.
 - **JPH** : 'échoue probablement à cause d'une mauvaise installation ou d'un problème avec le fichier PGM.
